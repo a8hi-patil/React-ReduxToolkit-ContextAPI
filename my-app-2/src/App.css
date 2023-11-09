@@ -113,3 +113,23 @@ input{
   border-bottom: 2px solid white;
   margin-right: 20px;
 }
+.search-bar{
+  margin: 20px;
+  padding: 20px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transition: ease-in-out 2s;
+}
+
+input{
+  text-align: center;
+  padding: 5px;
+  width: 150px;
+}
+ul{
+  list-style: none;
+  
+}

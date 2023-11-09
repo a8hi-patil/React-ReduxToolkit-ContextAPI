@@ -9,6 +9,7 @@ import AppStore from './store/AppStore'
 import { useState } from 'react'
 import Mouse from './component/Mouse'
 import Password from './component/Password'
+import SearchBar from './component/SearchBar'
 function App() {
   const [mousePosition,setMousePosition] = useState({top:50,left:50})
   const mouseHandler=(e)=>{
@@ -35,7 +36,10 @@ function App() {
       </div>
       <h3 style={{'textAlign':'center'}} >Show Hide Password 🧡</h3>
   <Password/>
-    {/* </div> */}
+    <div className="container"  >
+    <SearchBar />
+
+    </div>
     </>
   )
 }

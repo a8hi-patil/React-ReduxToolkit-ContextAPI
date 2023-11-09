@@ -11,7 +11,7 @@ const Password = () => {
         <div className="inner">
 
     <input type= { status ? "password" : "text"} />
-    <button onClick={passwordHandler} >{status ? "Show Password" : "Hide Password"}</button>
+    <button onMouseOut={passwordHandler }  onMouseOver={passwordHandler} >{status ? "Show Password" : "Hide Password"}</button>
     </div>
         </div>
     </>
